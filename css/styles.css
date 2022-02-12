@@ -130,6 +130,7 @@ nav ul li a{
     aspect-ratio: 1;
     border-radius: 50%;
     background: #FFFA;
+    cursor: pointer;
 }
 
 .circle.current{
