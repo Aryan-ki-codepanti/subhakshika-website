@@ -87,8 +87,8 @@ nav ul li a{
     background-color: transparent;
     /* color: #FFF; */
     letter-spacing: 0.05em;
-    color: red;
-    border: 2px solid red;
+    color: #FFF;
+    border: 2px solid #FFF;
     font-weight: 600;
     border-radius: var(--corner-radius);
     padding: 0.4em 0.85em;
@@ -111,4 +111,27 @@ nav ul li a{
     font-size: 2rem;
     margin-bottom: 0.5
     em;
+}
+
+/* Circles */
+
+.circles{
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.circle{
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #FFFA;
+}
+
+.circle.current{
+    background-color: var(--blue);
 }
