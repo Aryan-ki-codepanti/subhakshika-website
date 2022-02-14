@@ -136,3 +136,14 @@ nav ul li a{
 .circle.current{
     background-color: var(--blue);
 }
+
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-down{
+    width: 15px;
+    margin-left: 2px;
+}
